@@ -15,7 +15,7 @@
 //
 module bozzo.io/knx/knx-ejp
 
-go 1.15
+go 1.16
 
 require (
 	github.com/bozzo/knx-go v0.0.0-20201121180403-969a1e163827
