@@ -53,7 +53,7 @@ jobs:
           labels: ${{ steps.docker_meta.outputs.labels }}
 
       - name: Aqua Security Trivy
-        uses: aquasecurity/trivy-action@0.0.14
+        uses: aquasecurity/trivy-action@0.0.17
         if: github.event_name != 'pull_request'
         with:
           image-ref: ${{ secrets.DOCKER_IMAGE }}:main
