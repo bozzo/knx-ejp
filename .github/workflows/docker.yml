@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Dockerfile Validator
-        uses: ghe-actions/dockerfile-validator@v1.6.1
+        uses: ghe-actions/dockerfile-validator@v2
 
       - name: Docker meta
         id: docker_meta
