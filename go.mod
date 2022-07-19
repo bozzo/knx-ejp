@@ -19,8 +19,7 @@ go 1.16
 
 require (
 	github.com/bozzo/knx-go v0.0.0-20201121180403-969a1e163827
-	github.com/sirupsen/logrus v1.8.1
-	github.com/stretchr/testify v1.6.1 // indirect
+	github.com/sirupsen/logrus v1.9.0
 	golang.org/x/text v0.3.4 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
 )
