@@ -13,7 +13,7 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 #
-FROM golang:1.17.6-alpine AS builder
+FROM golang:1.20.1-alpine AS builder
 
 # Add Maintainer Info
 LABEL maintainer="Boris Barnier <bozzo@users.noreply.github.com>"
